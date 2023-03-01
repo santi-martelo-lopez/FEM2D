@@ -1,0 +1,131 @@
+# vtk DataFile Version 3.0
+2D Stress-Strain Distribution
+ASCII
+DATASET POLYDATA
+POINTS 6 float
+0 0 0
+0 200 0
+200 0 0
+200 200 0
+400 0 0
+400 200 0
+POLYGONS 2 10 
+4 0 2 3 1 
+4 2 4 5 3 
+CELL_DATA 2
+NORMALS cell_normals float
+0 0 1
+0 0 1
+POINT_DATA 6
+SCALARS x_displacement float 1
+LOOKUP_TABLE default
+0
+0
+3.125
+3.125
+6.25
+6.25
+SCALARS y_displacement float 1
+LOOKUP_TABLE default
+0
+-0.78125
+-1.5015e-15
+-0.78125
+-3.20664e-15
+-0.78125
+SCALARS x_strain float 1
+LOOKUP_TABLE default
+0.015625
+0.015625
+0.015625
+0.015625
+0.015625
+0.015625
+SCALARS y_strain float 1
+LOOKUP_TABLE default
+-0.00390625
+-0.00390625
+-0.00390625
+-0.00390625
+-0.00390625
+-0.00390625
+SCALARS xy_strain float 1
+LOOKUP_TABLE default
+-5.42101e-18
+-3.90313e-18
+-3.36103e-18
+3.46945e-18
+-2.92735e-18
+-3.90313e-18
+SCALARS x_stress float 1
+LOOKUP_TABLE default
+1250
+1250
+1250
+1250
+1250
+1250
+SCALARS y_stress float 1
+LOOKUP_TABLE default
+-2.27374e-13
+-1.13687e-13
+0
+-5.68434e-14
+5.68434e-14
+0
+SCALARS xy_stress float 1
+LOOKUP_TABLE default
+-1.73472e-13
+-1.249e-13
+-1.07553e-13
+1.11022e-13
+-9.36751e-14
+-1.249e-13
+SCALARS x_pstress float 1
+LOOKUP_TABLE default
+1250
+1250
+1250
+1250
+1250
+1250
+SCALARS y_pstress float 1
+LOOKUP_TABLE default
+-2.27374e-13
+0
+0
+0
+0
+0
+SCALARS xy_pstress float 1
+LOOKUP_TABLE default
+-1.38778e-16
+-9.99201e-17
+-8.60423e-17
+8.88178e-17
+-7.49401e-17
+-9.99201e-17
+SCALARS x_pXYvec float 1
+LOOKUP_TABLE default
+42.265
+42.265
+242.265
+242.265
+357.735
+357.735
+SCALARS y_pXYvec float 1
+LOOKUP_TABLE default
+42.265
+157.735
+42.265
+157.735
+42.265
+157.735
+SCALARS z_pXYvec float 1
+LOOKUP_TABLE default
+0
+0
+0
+0
+0
+0

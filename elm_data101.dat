@@ -1,0 +1,33 @@
+%This code defines the elastic properties of the material
+young = 2e5;
+nu = 0.30;
+mu = 8e10;
+element_thichness = 10;
+selectFlag = 1;
+number_of_elements = 2;
+number_of_nodes = 6;
+number_of_fixed_nodes = 2;
+number_of_dynamic_constrains = 2;
+type_of_model = 4;
+%elements_map:_element_ID,_1st_node_ID,_2nd_node_id,_...
+4 , 0 , 2 , 3 , 1;
+4 , 2 , 4 , 5 , 3;
+%nodal_coordinates_map:_xCoordindate,_yCoordindate,...
+0 , 0;
+0 , 200;
+200 , 0;
+200 , 200;
+400 , 0;
+400 , 200;
+%global_nodal_indexes_map_where_constrains_are_imposed
+0;
+1;
+%global_nodal_map_of_constrains_values
+1 , 1;
+1 , 0;
+%global_nodal_indexes_map_where_forces_are_imposed
+4;
+5;
+%global_nodal_map_of_force_values
+1.0e6 , 0.0;
+1.5e6 , 0.0;

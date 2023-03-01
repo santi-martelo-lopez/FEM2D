@@ -1,0 +1,35 @@
+# vtk DataFile Version 3.0
+2D Stress-Strain Distribution
+ASCII
+DATASET POLYDATA
+POINTS 6 float
+0 0 0
+0 200 0
+200 0 0
+200 200 0
+400 0 0
+400 200 0
+POLYGONS 2 10 
+4 0 2 3 1 
+4 2 4 5 3 
+CELL_DATA 2
+NORMALS cell_normals float
+0 0 1
+0 0 1
+POINT_DATA 6
+SCALARS displacement float 1
+LOOKUP_TABLE default
+101
+101
+101
+101
+101
+101
+SCALARS strain float 1
+LOOKUP_TABLE default
+10001
+10001
+10001
+10001
+10001
+10001

@@ -1,0 +1,55 @@
+
+
+This code output is a numerical aproximation for a plane stresss 
+or a plane strain problem.
+
+Loading input data from file: 
+Reading Data File
+
+
+
+File info: 
+%This code defines the elastic properties of the material
+
+Mechanical properties: 
+
+Young M.        nu             mu                   h          selectFlag
+200000            0.3          8e+10                10              0
+
+
+General Plane Stres-Strain case: 
+
+
+Printing local Strain: 
+0.000  
+0.000  
+0.000  
+
+
+Printing local Stress: 
+104.011  
+81.703  
+2.404  
+
+
+General Uniaxial Stress case: 
+
+
+Printing local Strain: 
+0.001  
+-0.000  
+0.000  
+
+
+Printing local Stress: 
+200.000  
+0.000  
+0.000  
+
+
+
+
+
+
+Press the Enter key to continue.
+
